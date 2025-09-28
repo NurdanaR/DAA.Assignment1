@@ -3,7 +3,7 @@
 ## 1. Project Overview
 This project implements classical divide-and-conquer algorithms in Java 17 using safe recursion patterns. Metrics for performance, recursion depth, and comparisons are collected and analyzed.
 
-## Algorithms Implemented
+### Algorithms Implemented
 1. MergeSort – linear merge, reusable buffer, small-n cutoff (Insertion Sort).
 2. QuickSort – randomized pivot, smaller-first recursion.
 3. Deterministic Select – median-of-medians (MoM5), O(n) selection.
@@ -15,22 +15,22 @@ This project implements classical divide-and-conquer algorithms in Java 17 using
 . Partition, swap, and utility methods are refactored for reuse.  
 
 ## 3. Recurrence Analysis
-## MergeSort
+### MergeSort
 . Recurrence: T(n) = 2T(n/2) + Θ(n)  
 . Master Theorem Case 2: T(n) = Θ(n log n)  
 . Verified by running the algorithm on arrays of different sizes; buffer reuse reduces constants.
 
-## QuickSort
+### QuickSort
 . Recurrence: T(n) = T(k) + T(n-k-1) + Θ(n)  
 . Randomized pivot ensures average recursion depth ≈ O(log n)  
 . Verified by running Main.java on example arrays; recursion depth bounded as expected.
 
-## Deterministic Select
+### Deterministic Select
 . Recurrence: T(n) = T(n/5) + T(7n/10) + Θ(n)  
 . Complexity: O(n)  
 . Verified correctness by comparing results with Arrays.sort()[k] on sample arrays.
 
-## Closest Pair
+### Closest Pair
 . Recurrence: T(n) = 2T(n/2) + Θ(n) (plus strip check)  
 . Complexity: O(n log n)  
 . Verified by comparing results with brute-force method on small n (≤2000).
