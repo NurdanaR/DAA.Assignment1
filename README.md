@@ -44,24 +44,24 @@ This project implements classical divide-and-conquer algorithms in Java 17 using
 ## 5. GitHub Workflow
 . Branches: main, feature/mergesort, feature/quicksort, feature/select, feature/closest, feature/metrics  
 . Commits examples:
-  - init: maven, README.md
-  - feat(metrics): counters, depth tracker
-  - feat(mergesort): baseline + buffer + cutoff
-  - feat(quicksort): smaller-first recursion + randomized pivot
-  - feat(select): deterministic select (MoM5)
-  - feat(closest): divide-and-conquer implementation
-  - docs(report): initial README & metrics
-  - release: v1.0
+  . init: maven, README.md
+  . feat(metrics): counters, depth tracker
+  . feat(mergesort): baseline + buffer + cutoff
+  . feat(quicksort): smaller-first recursion + randomized pivot
+  . feat(select): deterministic select (MoM5)
+  . feat(closest): divide-and-conquer implementation
+  . docs(report): initial README & metrics
+  . release: v1.0
 
 
 ## 6. Testing
-- Algorithm correctness verified manually via Main.java execution.  
-- MergeSort, QuickSort, Select, and Closest Pair run on example arrays to confirm correct output.  
+. Algorithm correctness verified manually via Main.java execution.  
+. MergeSort, QuickSort, Select, and Closest Pair run on example arrays to confirm correct output.  
 
 
 ## 7. Submission
-- GitHub repository: https://github.com/NurdanaR/DAA.Assignment1.  
-- README.md contains full report and description of all algorithms.
+. GitHub repository: https://github.com/NurdanaR/DAA.Assignment1.  
+. README.md contains full report and description of all algorithms.
 
 ## Nurdana Moldabay
 ## SE-2406
